@@ -9,12 +9,12 @@ function App() {
         <div className='flex justify-between'>  
 
           <div className="img">
-            <img className='h-20 w-50 mx-2.5 md:h-35 md:w-80 md:mx-8 hover:cursor-pointer' src="Loogo.png" alt="" />
+            <img className='h-20 w-50 mx-2.5 md:h-35 md:w-80 md:mx-8 hover:cursor-pointer' src="/images/Loogo.png" alt="" />
           </div>
 
           <div className="img order-3 m-8 mx-4 flex gap-4 hover:cursor-pointer">
-            <img className='md:h-14 md:w-14 md:my-2' src="cart.png" alt="" />
-            <img className='md:hidden' src="menu.png" alt="" />
+            <img className='md:h-14 md:w-14 md:my-2' src="/images/cart.png" alt="" />
+            <img className='md:hidden' src="/images/menu.png" alt="" />
 
             <div className='text-[#DB4439] hidden md:block bg-white h-20 w-42 text-2xl p-6 hover:bg-[#F1E8D8] shadow-black-300 rounded-full font-Anton'>
             SHOP SAUCES</div>
@@ -40,7 +40,7 @@ function App() {
            </div>
 
            <div className='imgg'>
-            <img className='h-88 w-82 mx-8 mt-27 rotate-0.6 md:rotate-1  md:-mx-5 md:h-150 md:w-155 md:mt-22' src="imgg1.png" alt="" />
+            <img className='h-88 w-82 mx-8 mt-27 rotate-0.6 md:rotate-1  md:-mx-5 md:h-150 md:w-155 md:mt-22' src="/images/imgg1.png" alt="" />
            </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ function App() {
         <div className="mainn mx-8 my-15 md:mx-0 md:my-0 absolute md:relative">
 
            <div className='md:flex'>
-            <img className='h-100 w-80 md:h-225 md:w-190' src="bottle.png" alt="" />
+            <img className='h-100 w-80 md:h-225 md:w-190' src="/images/bottle.png" alt="" />
 
             <div>
               <h1 className="mainn font-Anton text-[#DB4439] mx-1 my-6 text-[3.8rem] leading-15
@@ -114,12 +114,12 @@ function App() {
         <h1 className='font-Anton text-[#DB4439] text-center my-12 text-2xl'>FEATURED IN</h1>
 
         <div className="mainn-1 flex flex-col md:flex-row gap-10 md:mx-18 md:h-20 md:w-52 ">
-          <img className='md:mb-4 hover:cursor-pointer' src="feast_logo.png" alt="" />
-          <img className='md:mb-4 hover:cursor-pointer'  src="refiner29_logo.png" alt="" />
-          <img className='md:mb-4 hover:cursor-pointer'  src="eater_logo.png" alt="" />
-          <img className='md:mb-4 hover:cursor-pointer'  src="vanityfair_logo.png" alt="" />
-          <img className='md:mb-4 hover:cursor-pointer'  src="wsj_logo.png" alt="" />
-          <img className='md:mb-4 hover:cursor-pointer'  src="womansday_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer' src="/images/feast_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer'  src="/images/refiner29_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer'  src="/images/eater_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer'  src="/images/vanityfair_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer'  src="/images/wsj_logo.png" alt="" />
+          <img className='md:mb-4 hover:cursor-pointer'  src="/images/womansday_logo.png" alt="" />
         </div>
       </div>
 
@@ -139,7 +139,7 @@ function App() {
         </div>
 
         <div>
-          <img className='mainn-2 h-80 w-75 absolute m-5 my-145 md:mx-189 md:-my-0 md:h-215 md:w-1/2' src="nextimg.jpg" alt="" />
+          <img className='mainn-2 h-80 w-75 absolute m-5 my-145 md:mx-189 md:-my-0 md:h-215 md:w-1/2' src="/images/nextimg.jpg" alt="" />
         </div>
 
       </div>
@@ -154,10 +154,10 @@ function App() {
 
           <div className="mainn-3 md:flex absolute">
             <img className='h-110 w-88 m-5
-            md:h-180 md:w-160 md:mx-10 md:my-70' src="left.jpg" alt="" />  
+            md:h-180 md:w-160 md:mx-10 md:my-70' src="/images/left.jpg" alt="" />  
             <div>
             <img className='h-60 w-90 m-4
-              md:h-120 md:w-180 md:mx-35 md:my-30' src="right.jpg" alt="" />
+              md:h-120 md:w-180 md:mx-35 md:my-30' src="/images/right.jpg" alt="" />
             <h1 className='p-2 mx-2 md:mx-32 
                md:text-[1rem] font-medium md:w-150'>For sisters Deborah “Little” and Mary “Shorty” Jones, barbeque is a way of life. When they were little girls, their father, Leavy B. Jones Sr., set them up on milk crates to look over the pit at the very first Jones Bar-B-Q restaurant.</h1>
             <button className='bg-[#DB4439] md:mx-32 text-[#F1E7DA] mx-4 hover:cursor-pointer hover:bg-amber-700 rounded-full p-4'>Read Their Story</button>
