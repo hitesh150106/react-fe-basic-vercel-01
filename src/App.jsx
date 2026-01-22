@@ -205,12 +205,10 @@ function App() {
            </div>
         
       </div>
-
       <div className='mainn-5 bg-[#76251E] h-260 md:h-80 -my-25 md:-my-46'>
         <div className="mainn-5 final">
-          <img className=' my-20 md:m-0 md:my-0 ' src="loogo.png" alt="" />
+          <img className=' my-20 md:m-0 md:my-0 ' src="/images/loogo.png" alt="" />
         </div>
-        
          <div className='mainn-5 md:flex md:justify-between text-[#F1E7DA] md:gap-10 md:mx-90 md:w-3/4 md:-my-50 leading-9 md:leading-10 '>
 
           <div className="mainn-5 mx-6 md:mx-0">
